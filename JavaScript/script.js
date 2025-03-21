@@ -81,5 +81,7 @@ passwordInput.addEventListener(`input`, e => {
 confirmPasswordInput.addEventListener(`input`, e => {
   confirmPasswordValidation = passwordInput.value == e.target.value;
   validation(e, confirmPasswordValidation, confirmPasswordInput);
-});
+}); 
+
+
 
