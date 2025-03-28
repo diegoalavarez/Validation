@@ -14,12 +14,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color:rgb(148, 230, 182);
+  background-image: url(/img/fondoformulario.avif);
+  
   padding: 1rem;
 }
 
 #form {
-  background-color:rgb(51, 163, 98);
+  background-color:rgba(0, 0, 0, 0);
   padding: 1rem;
   border-radius: 0.5rem;
   display: flex;
@@ -30,7 +31,7 @@ body {
 }
 
 #formTitle {
-  color: #ffffff;
+  color: #ffffffda;
   text-align: center;
 }
 
@@ -41,7 +42,7 @@ body {
 }
 
 .formInputs {
-  background-color: #ffffff;
+  background-color: #ffffff51;
   outline: none;
   border: none;
   border-radius: 0.5rem;
@@ -54,7 +55,7 @@ body {
 
 .information {
   margin: 0;
-  color: rgba(5, 0, 0, 0.663);
+  color: rgba(254, 254, 254, 0.663);
   display: none;
 }
 
@@ -72,21 +73,21 @@ body {
   margin: 0;
   border-radius: 0.5rem;
   padding: 1rem;
-  background-color: #ffffff;
+  background-color: #ffffff36;
   color: rgba(5, 0, 0, 0.663);
 }
 
 select {
   height: 40px;
   border-radius: 10px;
-  background-color: #ffffff;
+  background-color: #ffffff4f;
   color: #000000;
   outline: none;
   border: none;
 }
 
 .correct {
-  outline: 2px solid #22c55e;
+  outline: 2px solid #22c55eec;
 }
 .incorrect {
   outline: 2px solid #ef4444;
@@ -98,7 +99,7 @@ select {
 
 #form-btn {
   width: 100%;
-  background-color:rgb(123, 246, 170);
+  background-color:rgba(123, 246, 170, 0.232);
   border-radius: 0.5rem;
   padding: 1rem;
   color: #000;
