@@ -27,7 +27,7 @@ const validation = (e, validation, element) => {
     // e = event
   const information = e.target.parentElement.children[1];
   //Ahora vamos a validar que todos los datos sean validados para habilitar el boton de registro
- formBtn.disabled = !usernameValidation || !emailValidation || !phoneValidation || !passwordValidation || !confirmPasswordValidation || !countriesValidation ? true : false;
+  formBtn.disabled = !usernameValidation || !emailValidation || !phoneValidation || !passwordValidation || !confirmPasswordValidation || !countriesValidation ? true : false;
   if (validation) {
     //Se esta agregando el color a la linea del imput
     element.classList.add(`correct`);
