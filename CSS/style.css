@@ -14,8 +14,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(/img/fondoformulario.avif);
-  
+  background-image: url(img/fondoformulario.avif);
   padding: 1rem;
 }
 
