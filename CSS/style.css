@@ -14,6 +14,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+<<<<<<< HEAD
+=======
+  background-image: url(https://github.com/diegoalavarez/Validation/blob/main/img/Fondo-formulario-4.jpg);
+>>>>>>> e49a544e140d8fb89b55a15ad44c6e3483997a46
   padding: 1rem;
   background-color: aliceblue;
 }
