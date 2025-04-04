@@ -15,7 +15,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 1rem;
-  background-image: url(/img/Fondo-formulario-4.jpg);
+  background-color: aliceblue;
 }
 
 #form {
@@ -26,7 +26,7 @@ body {
   gap: 1rem;
   box-shadow: 0 0 10px 2px;
   width: 100%;
-  
+  background-color: rgba(148, 0, 211, 0.5);
 }
 
 #formTitle {
@@ -98,7 +98,7 @@ select {
 
 #form-btn {
   width: 100%;
-  background-color:rgba(123, 246, 170, 0.232);
+  background-color:rgba(66, 247, 136, 0.7);
   border-radius: 0.5rem;
   padding: 1rem;
   color: #000;
