@@ -14,12 +14,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(/img/Fondo-formulario-4.jpg);
   padding: 1rem;
+  background-image: url(/img/Fondo-formulario-4.jpg);
 }
 
 #form {
-  background-color:rgba(0, 0, 0, 0);
   padding: 1rem;
   border-radius: 0.5rem;
   display: flex;
@@ -27,6 +26,7 @@ body {
   gap: 1rem;
   box-shadow: 0 0 10px 2px;
   width: 100%;
+  background-color: rgba(128, 128, 128, 0.471);
 }
 
 #formTitle {
